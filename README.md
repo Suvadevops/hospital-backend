@@ -1,14 +1,28 @@
-# Hospital Management Backend
+# 🏥 Hospital Management Backend
 
-## Tech Stack
-- Java 17
-- Spring Boot
-- Maven
-- Docker
-- Render
+Backend service for the Hospital Management System built using Spring Boot.  
+Handles patient data, appointments, and REST API operations.
 
-## Live URL
-https://hospital-backend-olti.onrender.com
+---
+## 🛠 Tech Stack
+
+- ☕ Java 17  
+- 🌱 Spring Boot  
+- 📦 Maven  
+- 🐳 Docker  
+- ☁️ Render  
+- ☁️ Microsoft Azure  
+
+---
+## 🚀 Live API
+
+- 🌍 Render (Primary Backend):  
+  👉 https://hospital-backend-olti.onrender.com  
+
+- ☁️ Azure Deployment (Secondary):  
+  👉 https://hospital-backend-app57.azurewebsites.net/patients  
+
+---
 
 ## Build & Run (Local)
 mvn clean package -DskipTests
