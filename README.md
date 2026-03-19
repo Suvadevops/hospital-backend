@@ -29,12 +29,32 @@ docker run -p 8080:8080 hospital-backend
 Note: One SonarCloud PR scan job failed due to configuration issue, 
 but code analysis and quality gate passed successfully.
 
-## Deployment
+## Deployment on Render
 
-### Backend Deployment on Render
 - Backend successfully deployed on Render
 - Application is running and accessible
 - <img width="1628" height="873" alt="render-backend-running" src="https://github.com/user-attachments/assets/70d5f004-d562-43d7-9be5-26048ff99f1c" />
+
+
+🚀 Deployment on Azure
+This project is successfully deployed on Microsoft Azure using Docker containers.
+
+🔹 Services Used
+Azure App Service (Linux)
+Azure Container Registry (ACR)
+
+Docker
+🔹 Backend Deployment
+Docker image built and pushed to Azure Container Registry
+
+Deployed using Azure Web App (Linux container)
+
+Live Backend API:
+👉 https://hospital-backend-app57.azurewebsites.net/patients
+<img width="1917" height="379" alt="Screenshot 2026-03-20 000711" src="https://github.com/user-attachments/assets/75c69d44-d966-4ddd-9679-123d2217048f" />
+
+
+
 
 
 
